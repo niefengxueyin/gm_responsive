@@ -1,0 +1,340 @@
+/* Contains LESS code for generating header CSS */
+@import "header.less";
+
+iframe {
+	width: 100%;
+}
+
+.fullWidth {
+	width: 100%;
+}
+
+.insideCopy {
+			//default text
+			color: #706f6f;
+			font-family: Verdana, Geneva, sans-serif;
+			font-size: 12px;
+
+			//other global settings
+			
+
+			a {
+				font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+				font-size: 12px;
+				color: #3c3c3b;
+				text-decoration: none;
+			}
+
+			a:hover {
+					color: #A5A5A5;
+			}
+
+	@media(min-width: @screen-lg-mid) {
+		.make-lg-column-offset(4); 
+		.make-lg-column(6);
+		
+		//min-width: 714px; //I have to add this because some of the elements require exact positioning (map on aboutGlance.asp, for instance)
+
+	}
+	@media(min-width: @screen-lg-min) and (max-width: @screen-lg-mid)  {
+		.make-lg-column-offset(3.2); 
+		.make-lg-column(7);
+		
+		//min-width: 714px; //I have to add this because some of the elements require exact positioning (map on aboutGlance.asp, for instance)
+	}
+	@media(min-width: @screen-sm-min) and (max-width: @screen-lg-min) {
+		margin-left: @rmb-menu-width;
+		padding: 0 30px;
+	}
+	@media(max-width: @screen-xs-max) {
+		//margin-top: 25px;
+		margin: 0 15px 0 15px;
+	}
+}
+
+.insideCopy p {
+	margin: 12px 0;
+}
+
+.headerImg {
+	&:extend(.img-responsive);
+	width: 100%;
+	max-width: 650px;
+	padding-top:35px;
+	padding-bottom:25px;
+	@media(max-width: @screen-xs-max) {
+		display:none;
+	}
+}
+	
+.aboutHeartHeading {
+	display:none;
+	@media(max-width: @screen-xs-max) {
+		display:block;
+	}
+}
+
+.aboutHeartCopy {
+	display:none;
+	@media(max-width: @screen-xs-max) {
+		display:block;
+	}
+}
+
+.ImgAboutHeart1 {
+	&:extend(.img-responsive);
+	margin-right:auto;
+	margin-left:auto;
+	width: 100%;
+	max-width: 301px;
+	@media(max-width: @screen-xs-max) {
+		display:none;
+	}	
+}
+
+.ImgAboutHeart2 {
+	&:extend(.img-responsive);
+	margin-right:auto;
+	margin-left:auto;
+	width: 100%;
+	max-width: 471px;
+	@media(max-width: @screen-xs-max) {
+		display:none;
+	}
+}
+
+
+.headerImgInternational {
+	&:extend(.img-responsive);
+	width: 100%;
+	max-width: 700px;
+	@media(max-width: @screen-xs-max) {
+		display:none;
+	}
+}
+
+
+.insideCopy h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	@media(min-width: @screen-sm-min) {
+		color: #1d1d1b;
+		font-size: 20px;
+		font-weight: lighter;
+		margin: 35px 0 20px 0;
+
+	}
+	@media(max-width: @screen-xs-max) {
+		color: #1d1d1b;
+		font-size: 20px;
+		font-weight: lighter;
+		margin: 5px 0 20px 0;
+
+	}
+}
+
+
+
+
+.insideCopy h3 {
+	color: #1d1d1b;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	margin: 0;
+	@media(min-width: @screen-sm-min) {
+
+	}
+	@media(max-width: @screen-xs-max) {
+
+	}
+}
+
+
+.insideCopy h4 {
+	color: #1d1d1b;
+	font-size: 15px;
+	font-weight: lighter;
+	margin: 9px 0 20px 0;
+	@media(min-width: @screen-sm-min) {
+
+	}
+	@media(max-width: @screen-xs-max) {
+
+	}
+}
+
+
+
+.insideCopy .insideCopyIntro {
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #3c3c3b;
+}
+
+//Back to Top theming
+
+//we hide these when we're on extra small
+.backToTop {
+	float: right;
+	@media(max-width: @screen-xs-max) {
+		display: none;
+	}	
+}
+
+
+//UL Theming
+
+ul.flush {
+	padding: 0;
+	margin-left: 13px;
+	list-style-type: disc;
+	li {
+		font-size: 8px;
+	}
+}
+
+.flushText {
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.borderBottomDeals {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+
+//tables
+.rmb-link-tab {
+	max-width: 711px;
+	tr:not(:last-child) td {
+		padding-bottom: 15px;
+	}
+	tr td:nth-child(1) {
+		white-space: nowrap;
+
+	}	
+	tr td:nth-child(2) {
+		padding-left: 10px;
+	}
+
+};
+
+.rmb-readmore {
+	&:extend(.rmb-link-tab);
+
+	tr:not(:last-child) td {
+		padding-bottom: 15px;
+	}
+	tr td:nth-child(1) {
+		min-width: 100px;
+	}
+	tr td:nth-child(2) {
+		padding-left: 10px;
+	}
+}
+
+.rmb-readmore-contact {
+	&:extend(.rmb-link-tab);
+
+	tr:not(:last-child) td {
+		padding-bottom: 15px;
+	}
+	tr td:nth-child(1) {
+		min-width: 80px;
+	}
+	tr td:nth-child(2) {
+		padding-left: 10px;
+	}
+}
+
+.rmb-readmore-view {
+	&:extend(.rmb-link-tab);
+
+	tr:not(:last-child) td {
+		padding-bottom: 15px;
+	}
+	tr td:nth-child(1) {
+		min-width: 60px;
+	}
+	tr td:nth-child(2) {
+		padding-left: 10px;
+	}
+}
+
+.rmb-readmore-visit {
+	&:extend(.rmb-link-tab);
+
+	tr:not(:last-child) td {
+		padding-bottom: 15px;
+	}
+	tr td:nth-child(1) {
+		min-width: 58px;
+	}
+	tr td:nth-child(2) {
+		padding-left: 10px;
+	}
+}
+
+
+
+//Widget theming
+.blueContactView {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #005174;
+	line-height: normal;
+}
+
+.noBreak {
+	white-space:nowrap;
+}
+
+h6 {
+	color: #1D1D1B;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14.5px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.ratesLink {
+    color: #FFFFFF;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+		a {
+			color: #FFFFFF;
+			font-family: Verdana,Geneva,sans-serif;
+			font-size: 11px;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #3C3C3B;
+		}
+}
+
+.blueArrowPadding {
+	margin-right:8px;
+}
+
+.AfricaTableHeadings {
+    border-bottom: 1px solid #CDCDCD;
+    color: #1D1D1B;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-bottom: 8px;
+}
+
+.borderBottomAfricaTable {
+    border-bottom: 1px solid #CDCDCD;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.BottomAfricaTable {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}

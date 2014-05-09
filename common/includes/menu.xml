@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<node value="Rates">
+		<leaf href="rates_currencies.asp" value="Currencies" />
+		<leaf href="rates_fixedIncome.asp" value="Fixed Income" />
+		<leaf href="rates_commodities.asp" value="Commodities" />
+		<node value="Indices">
+			<leaf href="rates_ci.asp" value="RMB Cash Intelligence Index TR" />
+			<leaf href="rates_CommoditiesIndex.asp" value="RMB Commodity Intelligence Index" />
+			<leaf href="rates_G10_yield_intelligence_index.asp" value="RMB G10 Yield Intelligence Index" />
+			<leaf href="rates_africa10_index.asp" value="RMB Africa 10 Yield Intelligence Index" />
+		</node>
+	</node>
+	<leaf href="rmbOnline.asp" value="RMB online"/>
+	<node value="About Us">
+		<leaf href="aboutUs.asp" value="Welcome" />
+		<leaf href="aboutOurFocus.asp" value="Our focus areas" />
+		<leaf href="aboutAwards.asp" value="Awards and accolades" />
+		<leaf href="aboutFirstrand.asp" value="FirstRand Group structure" />
+		<leaf href="aboutCharity.asp" value="Charity" />
+		<leaf href="aboutCareers.asp" value="Want to work for us?" />
+	</node>
+	<node value="We trade">
+		<node value="Global Foreign Exchange">
+			<leaf href="weTrade_globalForeignExchange.asp" value="Forex dealing" />
+			<leaf href="weTrade_globalForeignExchange.asp#crossBorderPayments" value="Cross-border payments" />
+			<leaf href="weTrade_globalForeignExchange.asp#accelerate" value="Accelerate" />
+			<leaf href="weTrade_globalForeignExchange.asp?#eForex" value="eForex online" />
+			<leaf href="weTrade_globalForeignExchange.asp?#africanCurrencies" value="African currencies and G20" />
+			<leaf href="weTrade_globalForeignExchange.asp?#currencyDerivatives" value="Currency derivatives" />
+			<leaf href="weTrade_globalForeignExchange.asp?#activeCurrency" value="Active Currency Management" />
+		</node>
+		<node value="Fixed Income">
+			<leaf href="weTrade_fixedIncome.asp?" value="Bonds" />
+			<leaf href="weTrade_fixedIncome.asp#derivatives" value="Derivatives" />
+			<leaf href="weTrade_fixedIncome.asp#inflation" value="Inflation" />
+			<leaf href="weTrade_fixedIncome.asp#options" value="Options" />
+			<leaf href="weTrade_fixedIncome.asp#repos" value="Repos" />
+			<leaf href="weTrade_fixedIncome.asp#moneyMarket" value="Money Market" />
+			<leaf href="weTrade_fixedIncome.asp#structuredCredit" value="Structured Credit" />
+		</node>
+		<node value="Commodities">
+			<leaf href="weTrade_Commodities.asp" value="Trading" />
+			<leaf href="weTrade_Commodities.asp#quantorands" value="Krugerrands" />
+			<leaf href="weTrade_Commodities.asp#jseFutures" value="Quanto futures" />
+			<leaf href="weTrade_Commodities.asp#kruger" value="JSE commodity futures" />
+			<leaf href="weTrade_Commodities_SAFEX.asp" value="SAFEX inward listed commodities" />
+		</node>
+		<node value="Equities">
+			<leaf href="weTrade_Equities.asp" value="RMB Morgan Stanley" />
+		</node>
+		<node value="Corporate African and Institutional Structuring Solutions">
+			<leaf href="weTrade_corporateAfrican_doingBusinessInAfrica.asp" value="Doing business in Africa" />
+			<leaf href="weTrade_corporateAfrican_africanPresence.asp" value="African presence" />
+			<leaf href="weTrade_corporateAfrican_institutionalSolutions.asp" value="Institutional Solutions" />
+			<leaf href="weTrade_corporateAfrican_corporateStructuring.asp" value="Corporate Structuring and Hedging" />
+			<leaf href="weTrade_corporateAfrican_crossAsset.asp" value="Cross Asset Solutions"/>
+		</node>
+	</node>
+		<node value="We finance">
+		<leaf href="weFinance_commodityFinance.asp" value="Commodity Finance and Securitisation" />
+		<leaf href="weFinance_tradeWorkingCapital.asp" value="Trade and Working Capital" />
+	</node>
+	<node value="We enhance">
+		<leaf href="weEnhance_primeServices.asp" value="Prime Services" />
+	</node>
+	<node value="We provide investment solutions">
+		<leaf href="weInvest.asp" value="Private and institutional investor solutions" />
+		<leaf  href="weInvest.asp#intelligenceIndices" value="RMB Intelligence indices" />
+	</node>
+	<node value="We bank">
+		<node value="Global Foreign Exchange">
+			<leaf href="weBank_globalForeignExchange_ForexDealing.asp" value="Forex Dealing and Cross-Border Payments"/>
+		</node>
+		<leaf href="weBank_TradeWorkingCapital.asp" value="Trade and Working Capital" />
+		<leaf href="weBank_transactionalBanking.asp" value="Transactional Banking" />
+	</node>
+	<node value="Research and training">
+		<leaf href="researchTraining_latestResearch.asp" value="Latest research" />
+		<leaf href="researchTraining_researchTeam.asp" value="Global Markets Research team" />
+		<leaf href="researchTraining_subscriptions.asp" value="Managing your research subscription" />
+		<leaf href="researchTraining_morganStanley.asp" value="RMB Morgan Stanley research" />
+		<leaf href="researchTraining_globalMarkets.asp" value="Training with Global Markets" />
+	</node>
+	<leaf href="contacts.asp" value="Contact us"/>
+</menu>

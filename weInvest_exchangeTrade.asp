@@ -1,0 +1,5 @@
+<%@LANGUAGE="VBSCRIPT" %>
+<!--#include file="common/includes/header.asp"-->
+                         <h2>Exchange traded products</h2>
+                         <p>Unlike traditional Collective Investment  Scheme (&lsquo;unit trust&rsquo;) investments, RMB&rsquo;s Exchange Traded Funds (ETFs) and  Exchange Traded Notes (ETNs) are traded on the Johannesburg Stock Exchange. In  contrast to traditional actively managed funds, they are passively managed —  the performance is index-linked and allocations are rules-based. The goal is to  replicate the performance of the index, rather than to strive for  outperformance.</p>
+For more information on RMB&rsquo;s investment  products,<a href="http://www.rmb.co.za/investments/"> click here.</a>               <!--#include file="common/includes/footer.asp"-->

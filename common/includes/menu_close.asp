@@ -1,0 +1,1 @@
+<span><img src="images/mobi/menu-close.png"></img></span>

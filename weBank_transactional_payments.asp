@@ -1,0 +1,4 @@
+<%@LANGUAGE="VBSCRIPT" %>
+<!--#include file="common/includes/header.asp"-->
+                         <h2>                         Payments solutions</h2>
+               <p>                         Through next generation platforms we bridge the gap between a client&rsquo;s business  objectives and increasingly complex technology options. Our leading Online  banking platform and our flexible host solution allows for integration with  your line of business systems for automated process management and ensure  efficient, effective and controlled transaction initiation and processing.</p><!--#include file="common/includes/footer.asp"-->

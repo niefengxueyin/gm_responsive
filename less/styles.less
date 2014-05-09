@@ -1,0 +1,41 @@
+/* This is the general styles file - we use it to simply output everything we need */
+
+@import "bootstrap/bootstrap.less"; 
+@import "./header.less";
+@import "./body.less";
+@import "./footer.less";
+
+//Page specific Less files
+@import "./pages/aboutGlance.less";
+@import "./pages/aboutDeals.less";
+@import "./pages/aboutGlance.less";
+@import "./pages/aboutAwards.less";
+@import "./pages/aboutCompanies.less"; 
+@import "./pages/africaFocusInAfrica.less"; 
+@import "./pages/contacts.less";  
+@import "./pages/rates_currencies.less"; 
+
+
+/** GENERAL SITE STYLES **/ 
+
+* {
+	//font-family: Verdana, Geneva, sans-serif;
+	//line-height: 14px;
+}
+
+body {
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.rmb-wrapper { /** wraps the entire site **/
+
+	@media(min-width: @screen-sm-min) {
+		max-width: 1600px;
+		position: absolute;
+	}
+	@media(max-width: @screen-xs-max) {
+
+	}
+} 
